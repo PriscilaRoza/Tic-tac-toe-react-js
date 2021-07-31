@@ -1,0 +1,54 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 650px;
+  }
+  
+  .Game {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    
+  }
+  
+  .Game__menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: -370px;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255, 255, 255, 100);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    /* padding: 15px; */
+  }
+  
+  .Game__board {
+    margin-left: 520px;
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .Game__board button {
+    border: 3px solid pink;
+    background-color: #eeaeca;
+    font-size: 4rem;
+    line-height: 0;
+  }
+  .reiniciar{
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    border:none;
+    cursor:pointer;
+  }
+  .reiniciar:hover{
+    background-color: #eeaeca;
+  }
